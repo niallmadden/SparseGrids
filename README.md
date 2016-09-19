@@ -1,5 +1,5 @@
 # SparseGrids
-This is a set of 5 MATLAB/Octave fules that solve the linear, two-dimensional partial differential equation a standard Galerkin FEM with bilinear elements, and two sparse grid methods.
+This is a set of 5 MATLAB/Octave scripts and function files that solve the linear, two-dimensional partial differential equation a standard Galerkin FEM with bilinear elements, and two sparse grid methods.
 
 Authors: Niall Madden and Stephen Russell, NUI Galway. 
 
