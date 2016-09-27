@@ -7,9 +7,6 @@ Date:     September 2016.
 
 Download: https://github.com/niallmadden/SparseGrids
 
-DOI:      10.5281/zenodo.154427  
-
-
 This is a set of 5 MATLAB/Octave scripts and function files for solving a 
 linear, two-dimensional partial differential equation on the unit square,
 using a standard Galerkin FEM with bilinear elements, and two sparse grid methods.
