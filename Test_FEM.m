@@ -6,12 +6,17 @@
 %    (2) a two-scale sparse grid method,
 %    (3) a multiscale sparse grid method,
 % on a uniform mesh with N intervals in each coordinate direction.
-% Authors: Niall Madden and Stephen Russell, NUI Galway. 
-% Date:    September 2016.
-% This code is used to generate results in
+%
+% This script is part of 
+% SparseGrids - a set of MATLAB/Octave scripts and functions
+%     for implementing spare grid finite element methods.
+% Authors:  Stephen Russell and Niall Madden, NUI Galway. 
+% Date:     September 2016.
+% Download: https://github.com/niallmadden/SparseGrids
+% DOI:      10.5281/zenodo.154427  
+% It is used to generate results in
 %    Russell, S., and  Madden, N. An analysis and implementation of
 %       sparse grid finite element methods. http://arxiv.org/abs/1511.07193
-% The code is hosted at https://github.com/niallmadden/SparseGrids
 % See also FEM_System_Matrix | FEM_RHS | TwoScale_Projector | MultiScale_Projector
 
 clear;

@@ -10,12 +10,17 @@ function b = FEM_RHS(f, N)
 % OUTPUT:
 %   b: [(N-1)^2,1] vector for the right-hand side. This is used when 
 %               solving A*uN=b where A is computed by FEM_System_Matrix.m
-% Authors: Niall Madden and Stephen Russell, NUI Galway. 
-% Date:    September 2016.
-% This code is used to generate results in
+%
+% This function is part of 
+% SparseGrids - a set of MATLAB/Octave scripts and functions
+%    for implementing spare grid finite element methods.
+% Authors:  Stephen Russell and Niall Madden, NUI Galway. 
+% Date:     September 2016.
+% Download: https://github.com/niallmadden/SparseGrids
+% DOI:      10.5281/zenodo.154427  
+% It is used to generate results in
 %    Russell, S., and  Madden, N. An analysis and implementation of
 %       sparse grid finite element methods. http://arxiv.org/abs/1511.07193
-% The code is hosted at https://github.com/niallmadden/SparseGrids
 % See also Test_FEM | FEM_System_Matrix
 
 h = 1/N;

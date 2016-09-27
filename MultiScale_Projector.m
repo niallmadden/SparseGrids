@@ -11,6 +11,18 @@ function P=MultiScale_Projector(N, Mx, My, skip_x, skip_y)
 %   skip_y: integer number of y-intervals to skip (should be 1 or 2)
 % OUTPUT:
 %   P:  multiscale sparse grid projector matrix 
+%
+% This function is part of 
+% SparseGrids - a set of MATLAB/Octave scripts and functions
+%    for implementing spare grid finite element methods.
+% Authors:  Stephen Russell and Niall Madden, NUI Galway. 
+% Date:     September 2016.
+% Download: https://github.com/niallmadden/SparseGrids
+% DOI:      10.5281/zenodo.154427  
+% It is used to generate results in
+%    Russell, S., and  Madden, N. An analysis and implementation of
+%       sparse grid finite element methods. http://arxiv.org/abs/1511.07193
+
 % Authors: Niall Madden and Stephen Russell, NUI Galway. 
 % Date:    September 2016.
 % This code is used to generate results in

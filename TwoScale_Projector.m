@@ -7,13 +7,18 @@ function P=TwoScale_Projector(N, N2)
 %   N: [1x1] integer number of intervals in the N-by-N uniform mesh
 %   N2: [1x1] integer proper divisor of N.
 % OUTPUT:
-%   P: [(N-1)^2,(2*N-N2-1)*(N2-1)] two-scale sparse grid projector matrix 
-% Authors: Niall Madden and Stephen Russell, NUI Galway. 
-% Date:    September 2016.
-% This code is used to generate results in
-%   Russell, S., and  Madden, N. An analysis and implementation of
-%     sparse grid finite element methods. http://arxiv.org/abs/1511.07193
-% The code is hosted at https://github.com/niallmadden/SparseGrids
+%   P: [(N-1)^2,(2*N-N2-1)*(N2-1)] two-scale sparse grid projector matrix
+%
+% This function is part of 
+% SparseGrids - a set of MATLAB/Octave scripts and functions
+%    for implementing spare grid finite element methods.
+% Authors:  Stephen Russell and Niall Madden, NUI Galway. 
+% Date:     September 2016.
+% Download: https://github.com/niallmadden/SparseGrids
+% DOI:      10.5281/zenodo.154427  
+% It is used to generate results in
+%    Russell, S., and  Madden, N. An analysis and implementation of
+%       sparse grid finite element methods. http://arxiv.org/abs/1511.07193
 % See also Test_FEM | MultiScale_Projector
 
 assert(mod(N,N2)==0, 'Build_TwoScale_Projector(N,N2): N2 must divide N');
