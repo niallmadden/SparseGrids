@@ -24,13 +24,13 @@ function b = FEM_RHS(f, N)
 
 h = 1/N;
 x = linspace(0,1,N+1);
-[X,Y] = meshgrid(x);
+[X,Y] = meshgrid(linspace(0,1,N+1));
 
 %%  Define the quadrature rule: we use 2-point Gaussian Quadrature
 qN = 2; % Number of points in each coordinate direction
-qW = [1 1;1 1]/4;  % Weights as a qN-times-qN matrix
-qx = [1-1/sqrt(3), 1+1/sqrt(3)]/2; % x-values for function evaluation
-qy = [1-1/sqrt(3), 1+1/sqrt(3)]/2; % y-values for function evaluation
+qW = [1 1;1 1]/4;  % Quadrature weights
+qx = [1-1/sqrt(3), 1+1/sqrt(3)]/2; % Quadrature x-points
+qy = [1-1/sqrt(3), 1+1/sqrt(3)]/2; % Quadrature y-points
 
 %% The four bilinear functions that contribute to an individual basis
 %   function, evaluated at the quadrature points.
