@@ -3,7 +3,7 @@ for implementing spare grid finite element methods.
 
 Authors:  Stephen Russell and Niall Madden, NUI Galway. 
 
-Date:     September 2016.
+Date:     November 2016.
 
 Download: https://github.com/niallmadden/SparseGrids
 
